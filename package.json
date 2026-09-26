@@ -1,0 +1,40 @@
+{
+  "name": "mario-game",
+  "productName": "Super Mario 6 Stages",
+  "version": "1.0.0",
+  "description": "Retro Mario platform game with 6 stages — desktop edition",
+  "main": "main.js",
+  "author": "onur",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "exe": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.onur.mariooyunu",
+    "productName": "Super Mario 6 Stages",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "SuperMario-6Stages.exe"
+    }
+  }
+}
