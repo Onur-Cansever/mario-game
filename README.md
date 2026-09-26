@@ -5,8 +5,9 @@ has fullscreen support, procedurally generated music and per-channel sound contr
 
 ## Running
 
-- **`SuperMario-6Stages.exe`** — double-click and play (portable, no install needed).
-- Or double-click **`index.html`** to play in a browser (**F** for fullscreen).
+- **Download the exe** from [GitHub Releases](https://github.com/Onur-Cansever/mario-game/releases)
+  (`SuperMario-6Stages.exe`) — double-click and play (portable, no install needed).
+- Or open **`index.html`** in any browser and play (**F** for fullscreen).
 - Press **ENTER** or **SPACE** to start.
 
 > Note: browser security requires a first keypress (ENTER) before audio starts.
@@ -47,11 +48,12 @@ adjusts the music volume.
 
 ## Files
 
-- `SuperMario-6Stages.exe` — **the ready-to-run game** (portable, single file).
 - `index.html` — the game itself (all code in one file).
 - `build-exe.bat` — **rebuilds the exe after you change the code** (see below).
 - `main.js`, `package.json` — Electron sources used to build the exe.
 - `README.md` — this file.
+- The portable exe lives in [GitHub Releases](https://github.com/Onur-Cansever/mario-game/releases)
+  (it is ~70MB, so it is not committed to the repo).
 
 > Note: `SuperMario-6Stages.exe` is unsigned. If Windows shows a
 > "Unknown publisher" warning, click **More info → Run anyway**.
